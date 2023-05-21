@@ -4,7 +4,7 @@ Se realizaron cambios en los códigos de ModeloNintendo.cpp y ModeloNintendo.h ;
 
 - Inserción de métodos set y get
    ```js 
-       void setNombreClave(string nombreClave) {
+    void setNombreClave(string nombreClave) {
         this->nombreClave = nombreClave;
     }
 
