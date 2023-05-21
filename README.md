@@ -3,7 +3,7 @@
 Se realizaron cambios en los códigos de ModeloNintendo.cpp y ModeloNintendo.h ; los cambios realizados fueron los siguientes:
 
 - Inserción de métodos set y get
-   ''' 
+   ```js 
        void setNombreClave(string nombreClave) {
         this->nombreClave = nombreClave;
     }
@@ -11,19 +11,19 @@ Se realizaron cambios en los códigos de ModeloNintendo.cpp y ModeloNintendo.h ;
     void setSalud(int salud) {
         this->salud = salud;
     }
-    '''
+   ``` 
     
 - Inserción de un método nuevo 
 
-'''
+ ```js 
    void BrincoEspecial() {
         cout << "Brincando arriba de 2 metros" << endl;
    }
-'''
+ ```
 
 - Creación de menu con las siguientes opciones:
 
-'''
+ ```js 
 void menu() {
     cout << "----- Menú -----" << endl;
     cout << "1. Crear nuevo personaje" << endl;
@@ -35,4 +35,4 @@ void menu() {
     cout << "----------------" << endl;
     cout << "Ingrese su opción: ";
 }
-'''
+ ```
