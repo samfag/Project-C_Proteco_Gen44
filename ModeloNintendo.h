@@ -12,7 +12,28 @@ class ModeloNintendo {
       char letraInicial;      
 
       ModeloNintendo(string nombre, string color, int edad, int salud, bool esHumano = false);
-      ~ModeloNintendo();
+      ModeloNintendo();
+	  
+	  //ejemplos de sobrecarga de metodos
+      ModeloNintendo(string nombre, string color, int edad, int salud);
+      
+      
+      ModeloNintendo(string nombre, string color, int edad);
+      
+      
+      ModeloNintendo(string nombre);
+      
+      
+      ModeloNintendo(string nombre, int salud, bool esHumano = false);
+      
+      
+      ModeloNintendo(bool esHumano = false);
+      
+      
+      ModeloNintendo(int edad, int salud);
+      
+      
+      
       
       void saludar(string nombre);
       void saltar(char tecla);
