@@ -49,5 +49,6 @@ int main() {
   ModeloNintendo toadcitoRojo = ModeloNintendo("Toad", "Rojo", 10, 100, false);
   toadcitoRojo.saludar("Sam Flores");
   toadcitoRojo.saludar("Ale Mora");
+  toadcitoRojo.BrincoEspecial();
   return 0;
 }
