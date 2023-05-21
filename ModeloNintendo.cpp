@@ -22,9 +22,46 @@ ModeloNintendo::ModeloNintendo(string nombre, string color, int edad, int salud,
    this->esHumano = esHumano;
 }
 
-ModeloNintendo::~ModeloNintendo() {
+ModeloNintendo::ModeloNintendo() {
    cout << "Murió" << "\n";
 }
+
+
+//metodos constructores
+ModeloNintendo(string nombre, string color, int edad, int salud){
+	this->nombre = nombre;
+    this->color = color;
+    this->edad = edad;
+    this->salud = salud;
+}
+
+
+ModeloNintendo(string nombre, string color, int edad){
+	this->nombre = nombre;
+    this->color = color;
+    this->edad = edad;
+}
+
+ModeloNintendo(string nombre){
+	this->nombre = nombre;
+	
+}
+
+ModeloNintendo(string nombre, int salud, bool esHumano = false){
+	this->nombre = nombre;
+    this->salud = salud;
+    this->esHumano = esHumano;
+}
+
+ModeloNintendo(bool esHumano = false){
+	this->esHumano = esHumano;
+}
+
+ModeloNintendo(int edad, int salud){
+	this->edad = edad;
+    this->salud = salud;
+}
+
 
 void ModeloNintendo::saludar(string nombre) {
 	cout << "Hola " << nombre << "\n";
