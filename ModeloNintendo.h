@@ -37,6 +37,12 @@ class ModeloNintendo {
     int getSalud() {
         return salud;
     }
+   
+   //Método añadido
+   
+   void BrincoEspecial() {
+        cout << "Brincando arriba de 2 metros" << endl;
+   }
       
    protected:
       string nombreClave;
