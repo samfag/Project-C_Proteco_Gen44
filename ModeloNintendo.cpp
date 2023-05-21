@@ -1,7 +1,7 @@
 #include "ModeloNintendo.h"
 
 ModeloNintendo::ModeloNintendo(string nombre, string color, int edad, int salud, bool esHumano) {
-	this->nombre = nombre;
+   this->nombre = nombre;
    this->color = color;
    this->edad = edad;
    this->salud = salud;
@@ -47,6 +47,7 @@ void ModeloNintendo::revelarSecretos(string combinacionTeclas) {
 
 int main() {
   ModeloNintendo toadcitoRojo = ModeloNintendo("Toad", "Rojo", 10, 100, false);
-  toadcitoRojo.saludar("Samuel");
+  toadcitoRojo.saludar("Sam Flores");
+  toadcitoRojo.saludar("Ale Mora");
   return 0;
 }
